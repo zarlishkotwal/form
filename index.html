@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Register form</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name"> Full name</label>
+            <input type="text" name="name" placeholder="Full name">
+            <span></span>
+            <label for="father name"> Father name</label>
+            <input type="text" name="father name" placeholder="father name">
+            <span></span>
+        </div>
+        <div class="box">
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Email">
+            <span></span>
+             <label for="password">Password</label>
+           <input type="password" name="password" placeholder="Password" id="myInput" >
+           <i class="far fa-eye-slash" id="hide"onclick="myFunction()"></i>
+           <i class="far fa-eye" id="show" onclick="myFunction()"></i>
+           <span></span>
+           
+           </div>
+        <div>
+            <label for="number">Phone number</label>
+            <input type="number" name="number" placeholder="Phone number">
+            <span></span>
+            <label for="DOB">Date Of Birth</label>
+            <input type="date" name="DOB" placeholder="Date Of Birth">
+            <span></span>
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+          <center>  <input type="radio" name="gendr" value="male"></center>Male
+          <center>  <input type="radio" name="gendr" value="female"></center>Female
+          <center> <input type="radio" name="gendr" value="other"></center>Other
+            <span></span>
+            
+            <label for="image">Profile picture</label>
+            <input type="file" name="image">
+            <span></span>
+            
+        </div>
+        <button name="prev">Previous</button>
+        <button name="next">Next</button>
+        <section>
+            <p></p>
+            <p></p>
+            <p></p>
+            <P></P>
+        </section>
+    </form>
+</body>
+<script  src="app.js"></script>
+</html> 

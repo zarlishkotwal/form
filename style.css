@@ -1,0 +1,112 @@
+ 
+body{
+    background-image:url(./img/images.jpg);
+    background-size: 1480px;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+form{
+    width: 600px;
+    margin: 200px auto;
+   
+}
+div{
+    width: 100%;
+    margin: 15px auto;
+    display: none;
+}
+
+label{
+    display: block;
+    padding: 20px;
+    font-size: 25px;
+}
+
+input{
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #797979;
+    margin-left: 40px;
+    font-size: 20px;
+    border-radius: 3px;
+  margin-right: -50px;
+ display: inline-flex;
+ text-decoration: white;
+}
+i{
+  
+    cursor: pointer;
+   margin: 4px 2px;
+   font-size: 18px;
+}
+#hide{
+    display: none;
+}
+button{
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: linear-gradient(90deg, royalblue , lightgreen);
+    font-size: bold;
+    color: whitesmoke;
+    float: left;
+}
+
+input[type ="radio"]{
+display: inline-flex;
+width: 60px;
+
+display: flexbox ;
+}
+section{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    float: right;
+}
+p{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ededed;
+    margin: 2px 5px;
+    display: inline-flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

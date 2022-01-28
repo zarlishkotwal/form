@@ -1,0 +1,780 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+#alertBox{
+    display: none;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+input{
+    display: block;
+}
+
+
+.container{
+    padding: 10px;
+    display: flex;
+}
+.row{
+  
+    margin: 10px;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.col-1{
+    width: 650px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 1px;
+    right: 60px; 
+
+}
+.container2{
+    padding: 10px;
+    display: flex;
+}
+.row2{
+   
+    margin: 10px;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.col-2{
+    width: 650px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+    left: 180px; 
+}
+.border{
+    padding: 10px;
+    display: flex;
+}
+.A1{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 10px;
+    height:394px;
+    width:300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+
+}
+.A1 div {
+     width: 650px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.border2{
+    padding: 1px;
+    display: flex;
+}
+
+.A2{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 10px;
+    height:394px;
+    width:300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.A1 div {
+     width: 650px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.border3{
+    padding: 1px;
+    display: flex;
+}
+.A3{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 10px;
+    height:394px;
+    width:300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.A3 div {
+     width: 650px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.border4{
+    padding: 1px;
+    display: flex;
+}
+.A4{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 10px;
+    height:394px;
+    width:290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.A4 div {
+     width: 650px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+   
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+ .C5{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 9px;
+     height:400px; 
+    width:270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.C5 div {
+     position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ .border5{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    right: 965px;
+    
+     top: 1150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ }
+ .C6{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 9px;
+    height:400px;
+    width:300px;
+    background-color:turquoise;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.C6 div p {
+    position: absolute;
+    bottom: 0;
+    color:white;
+    text-align:center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ 
+.border6{
+    padding: 1px;
+    display: flex;
+    position: absolute;
+    right: 645px;
+    top: 1150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.C7{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 9px;
+    height:400px;
+    width:297px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.C7 div {
+    position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.border7{
+    padding: 1px;
+    display: flex;
+    position: absolute;
+    left: 620px;
+    top: 1150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.C8{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 9px;
+    height:400px;
+    width:290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+
+.C8 div {
+    position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.border8{
+    padding: 1px;
+    display: flex;
+    position: absolute;
+    left: 940px;
+    top: 1150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.p9{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 9px;
+      width: 270px;
+     height:400px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.p9 div {
+     position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ .border9{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    left: 6px;
+    top: 1580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ }
+ .p10{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 9px;
+      width: 310px;
+     height:400px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.p10 div {
+     position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ .border10{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    left: 295px;
+    top: 1580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ }
+ .p11{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 9px;
+      width: 302px;
+     height:400px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.p11 div {
+     position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ .border11{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    left: 620px;
+    top: 1580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ }
+ .p12{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 9px;
+      width: 290px;
+     height:400px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.p12 div {
+     position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ .border12{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    left: 945px;
+    top: 1580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ }
+  .q13{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 9px;
+      width: 270px;
+     height:400px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.q13 div {
+     position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ .border13{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    right: 967px;
+    top:2000px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .q14{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 9px;
+      width: 310px;
+     height:400px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.q14 div {
+     position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ .border14{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    left: 295px;
+    top: 2000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ }
+ .q15{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 9px;
+      width: 302px;
+     height:400px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.q15 div {
+     position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ .border15{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    left: 620px;
+    top:2000px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ }
+ .q16{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 9px;
+      width: 290px;
+     height:400px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.q16 div {
+     position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ .border16{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    left: 945px;
+    top:2000px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ }
+.v17{
+    border: rgb(39, 38, 36) 1px solid;
+    margin: 9px;
+      width: 270px;
+     height:400px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.v17 div {
+     position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ .border17{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    right: 965px;
+    top: 2430px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ }
+ .btn{
+     display: inline-block;
+     margin-top: 20px;
+     border: 1px solid black;
+     padding: 12px 20px;
+ }
+ .btn:hover{
+     background-color: black;
+     color: white;
+     border: 1px solid white;
+ }
+ .x18{
+
+    margin: 9px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.x18 div {
+     position: absolute;
+    bottom: 0;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ .border18{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    right: 860px;
+    top: 2750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ }
+.x19{
+    margin: 9px;
+     height:340px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.x19 div {
+     position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+    cursor: pointer;
+}
+ .border19{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    right: 600px;
+    top: 2750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ }
+  .x20{
+    margin: 9px;
+     height:340px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.x20 div {
+     position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+ .border20{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    right: 340px;
+    top: 2750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ }
+  .x21{
+    margin: 9px;
+     height:340px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.x21 div {
+     position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ .border21{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    right: 110px;
+    top: 2750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ } 
+.x22{
+    margin: 9px;
+     height:340px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.x22 div {
+     position: absolute;
+    bottom: 0;
+    color: cornsilk;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ .border22{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    right: 990px;
+    top: 2980px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ } 
+   .x23{
+    margin: 9px;
+      width: 450px;
+     height:200px;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.x23 div {
+     position: absolute;
+    bottom: 0;
+    background-color: cornsilk;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ .border23{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    right: 530px;
+    top: 2980px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: whitesmoke;
+    cursor: pointer;
+ } 
+ .x24{
+    margin: 9px;
+      width: 510px;
+     height:200px;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.x24 div {
+     position: absolute;
+    bottom: 0;
+    background-color: cornsilk;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+ .border24{
+    padding: 1px;
+    display: flex;
+     position: absolute;
+    left:730px;
+    top: 2980px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: whitesmoke;
+    cursor: pointer;
+ } 
+ footer{
+     background-color: rgb(224, 221, 221);
+     position: absolute;
+     top: 220px;
+    right: 2px;
+ }
+ table{
+     background-color: rgb(224, 221, 221);
+     color: black;
+     width: 1210px;
+     margin: 0 auto;
+ }
+ table th{
+     padding-left: 10px;
+     padding-bottom:10px;
+     color: black;
+ }
+ table ,td{
+     text-align:left;
+     padding:6px 10px ;
+     font-size: 13px;
+     color: black;
+ } 
